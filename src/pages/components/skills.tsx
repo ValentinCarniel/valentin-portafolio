@@ -21,6 +21,7 @@ const skills = [
   { name: "SQL Server", icon: MdStorage, color: "text-blue-700" },
   { name: "JSON", icon: SiJson, color: "text-pink-500" },
   { name: "API REST", icon: SiApollographql, color: "text-red-500" },
+  { name: "typescript", icon: SiJavascript, color: "text-blue-500" }, // Reusing JavaScript icon for TypeScript
 ];
 
 export default function Skills() {

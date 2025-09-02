@@ -12,9 +12,14 @@ export default function Projects() {
       title: "Proyecto Tareas",
       description: "App web con FastAPI y SQLite para gestión de tareas, con login y registro.",
       repoLink: "https://github.com/ValentinCarniel/proyecto_tareas",
-      demoLink: "https://proyecto-tareas.vercel.app",
+      demoLink: "https://proyectotareas.vercel.app/",
     },
-    // Podés agregar más proyectos acá
+    {
+      title: "Chatbot AI",
+      description: "Demo de un chatbot con FastAPI y OpenAI GPT, frontend interactivo.",
+      repoLink: "https://github.com/ValentinCarniel/Chatbot-Ai",
+      demoLink: "https://ValentinCarniel.github.io/Chatbot-Ai/",
+    },
   ];
 
   return (

@@ -28,9 +28,17 @@ export default function Home() {
             title="Proyecto Tareas"
             description="Gestor de tareas con FastAPI, SQL y Frontend moderno."
             repoLink="https://github.com/ValentinCarniel/proyecto_tareas"
-            demoLink="https://tareasdemo.com"
+            demoLink="https://proyectotareas.vercel.app/"
           />
-        </section>
+           <ProjectCard
+             title="Chatbot AI"
+             description="Chatbot de reclamos vecinales, integrando open AI."
+             repoLink="https://github.com/ValentinCarniel/Chatbot-Ai"
+             demoLink="https://ValentinCarniel.github.io/Chatbot-Ai/"
+           />
+       </section>
+          
+        
 
         <section className="w-full max-w-4xl bg-gray-800 rounded-lg p-6 shadow-lg mt-8">
           <Project />
